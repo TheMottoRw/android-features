@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout
+    android:id="@+id/recyclerSent"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+    <TextView
+        android:id="@+id/tvRecyclerMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello uraho neza amakuru?"
+        android:textColor="#ffffff"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvRecyclerStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sent"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/tvRecyclerDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:10"
+            android:layout_marginLeft="60dp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
